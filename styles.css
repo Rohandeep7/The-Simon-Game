@@ -1,0 +1,94 @@
+body{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(18,120,93,1) 40%, rgba(0,212,255,1) 100%);
+}
+
+#header-title {
+  font-family: 'Press Start 2P', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  margin:  5%;
+  color:#F0E68C;
+  text-align: center;
+}
+ .container {
+  display: block;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.btn {
+  margin: 16px;
+  display: inline-block;
+  height: 220px;
+  width: 220px;
+  border: 10px solid black;
+  border-radius: 10%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+  border-top-right-radius: 80%;
+}
+
+.green {
+  background-color: green;
+  border-top-left-radius: 80%;
+}
+
+.blue {
+  background-color: blue;
+  border-bottom-right-radius: 80%;
+}
+
+.yellow {
+  background-color: yellow;
+  border-bottom-left-radius: 80%;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+@media only screen and (max-width:985px){
+  .red{
+    border-radius: 0;
+  }
+  .green{
+    border-radius: 0;
+  }
+  .blue{
+    border-radius: 0;
+  }
+  .yellow{
+    border-radius: 0;
+  }
+  .btn{
+    border-radius: 10%;
+  }
+}
+@media only screen and (max-width:600px){
+  .red{
+    border-radius: 0;
+  }
+  .green{
+    border-radius: 0;
+  }
+  .blue{
+    border-radius: 0;
+  }
+  .yellow{
+    border-radius: 0;
+  }
+  .btn{
+    weight:50px;
+    height:50px;
+    border-radius: 10%;
+  }
+}
